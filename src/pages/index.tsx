@@ -19,13 +19,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chris Cooper</title>
+        <title>Tony</title>
         <meta name="description" content="Chris Cooper" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="./favicon.ico" />
         <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=G-HT4ZFGC34E`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-WEGPVP1Q5D`}
         />
         <script
           dangerouslySetInnerHTML={{
@@ -33,7 +33,7 @@ export default function Home() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-HT4ZFGC34E', {
+            gtag('config', 'G-WEGPVP1Q5D', {
               page_path: window.location.pathname,
             });
           `,
