@@ -27,7 +27,7 @@ export default function Home() {
       
       
       <main>
-        <div style={{ color: '#fff', fontSize: 40}}>Whatever your page looks like </div>
+        <div style={{ color: '#fff', fontSize: 40}}>GA Demo </div>
       </main>
       
     </div>
