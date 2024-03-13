@@ -15,17 +15,27 @@ import { initializeGA } from "@/utilities/google-analytics";
 import { initializeApp } from 'firebase/app';
 import { getAnalytics, logEvent } from "firebase/analytics";
 // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBix0_l0V2BRG8VCuTid97j7yRHIzQtUUA",
+//   authDomain: "predx-46a86.firebaseapp.com",
+//   projectId: "predx-46a86",
+//   storageBucket: "predx-46a86.appspot.com",
+//   messagingSenderId: "580898390555",
+//   appId: "1:580898390555:web:72df2516f0ea7a3b412ebe",
+//   measurementId: "G-95F3FKJH3Q"
+// };
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBix0_l0V2BRG8VCuTid97j7yRHIzQtUUA",
-  authDomain: "predx-46a86.firebaseapp.com",
-  projectId: "predx-46a86",
-  storageBucket: "predx-46a86.appspot.com",
-  messagingSenderId: "580898390555",
-  appId: "1:580898390555:web:72df2516f0ea7a3b412ebe",
-  measurementId: "G-95F3FKJH3Q"
+  apiKey: "AIzaSyCWtGfTpToGgibo6nesNnMGXreMgBNZdDo",
+  authDomain: "modelcreator-cdd8f.firebaseapp.com",
+  databaseURL: "https://modelcreator-cdd8f-default-rtdb.firebaseio.com",
+  projectId: "modelcreator-cdd8f",
+  storageBucket: "modelcreator-cdd8f.appspot.com",
+  messagingSenderId: "810288170650",
+  appId: "1:810288170650:web:da961e0e607a7ae2e14123",
+  measurementId: "G-X6WPSQ0HTH"
 };
-
-
 
 
 export default function Home() {
@@ -56,7 +66,7 @@ export default function Home() {
       
       
       <main>
-        <div style={{ color: '#fff', fontSize: 40}}>GA Demo </div>
+        <div style={{ color: '#fff', fontSize: 40}}>GA Demo 1111 </div>
       </main>
       
     </div>
